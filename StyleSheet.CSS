@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	 background: url("pexels-humaied-ullah-298366.jpg");
+	 background-size: cover;
+	 background-position: center;
+
+
+
+}
+div.main{
+
+          width: 400px;
+          margin: 100px auto 0px  auto;
+
+}
+h1{
+   text-align: center;
+   padding: 10px;
+   font-family: sans-serif;
+}
+div.registration{
+
+	            background-color: rgba(0,0,0,0.3);
+	            width: 100%;
+	            font-size: 18px;
+	            border-radius: 10px;
+	            border: 1px solid rgba(255,255,255,0.3);
+	            box-shadow:  2px 2px 15px 
+	            rgba(0,0,0,0.3);
+	            color: #fff;
+
+ }
+form#registration
+ {
+ 	background-color: rgba(0, 0, 0, .5);
+ 	width: 400px;
+ 	margin: 10px;
+ 	padding: 40px 60px 45px 60px;
+	margin-left:auto;
+	margin-right: auto;
+	border-style: solid;
+	border-radius: 10px;
+
+ } 
+ label{
+ 	  font-family: sans-serif;
+ 	  font-size: 18px;
+}
+
+input#name{
+
+       width: 300px;
+       border: 1px solid #ddd;
+       border-radius: 3px;
+       outline: 0;
+       padding: 7px;
+       background-color: #fff;
+       box-shadow: inset 1px 1px 5px
+       rgba(0,0,0,0.3);
+}
+input#submit{
+
+	width: 200px;
+	padding: 8px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+	border: 1px solid #15f4ee;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	border: 2px solid blue;
+	box-shadow: 1px 1px 5px
+	rgba(0,0,0,0.3);
+}
+input#submit:hover{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+label,span,h1{
+
+	text-shadow: 1px 1px 5px
+	rgba(0,0,0,0.3);
+}
